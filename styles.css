@@ -1,16 +1,25 @@
 /* styles.css */
 .resized-image {
-  width: 500px;
-  height: auto;
-}
+    width: 500px;
+    height: auto;
+  }
+  
+  .with-border {
+    border: 5px solid black;
+  }
+  
+  body {
+    background-color: rgb(255, 0, 0); /* Using RGB values */
+  }
 
-.with-border {
-  border: 5px solid black;
-}
+  h1 {
+    color:#b35900;
+    text-align: center;
+  }
 
-.my-element {
-  background-color: rgb(255, 0, 0); /* Using RGB values */
-}
-.center-text {
-  text-align: center;
-}
+  .assign {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: #808000;
+  }
