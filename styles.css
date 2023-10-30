@@ -7,3 +7,7 @@
 .with-border {
   border: 5px solid black;
 }
+
+.my-element {
+  background-color: rgb(255, 0, 0); /* Using RGB values */
+}
