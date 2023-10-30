@@ -11,3 +11,6 @@
 .my-element {
   background-color: rgb(255, 0, 0); /* Using RGB values */
 }
+.center-text {
+  text-align: center;
+}
