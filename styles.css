@@ -8,5 +8,22 @@ text-align: center;
 color: #6f7bfc;
 }
 .about {
-background: #00b3d1;
+background: #f8feff;
+font-family:"Times New Roman", Times, serif;
+margin: 40px;
+}
+.skills {
+background: #f8feff;
+font-family:"Times New Roman", Times, serif;
+margin: 40px;
+}
+.projects {
+background: #f8feff;
+font-family:"Times New Roman", Times, serif;
+margin: 40px;
+}
+.contact {
+background: #f8feff;
+font-family:"Times New Roman", Times, serif;
+margin: 40px;
 }
