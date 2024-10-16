@@ -11,14 +11,26 @@ body {
     margin-bottom: 40px;
   }
   
+  .projects-container {
+    display: flex;
+    justify-content: center; /* Centers the entire project container */
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the individual sections */
+  }
+  
   .project {
     background: #ffffff;
     border: 2px solid #e6e6e6;
     border-radius: 10px;
     padding: 20px;
-    width: calc(33% - 40px);
+    width: 50%; /* Keeps two sections per row */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: 10px; /* Adds some space between the projects */
   }
   
   .project h3 {
@@ -55,7 +67,9 @@ body {
   }
   
   p {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
     color: #333;
     text-align: justify;
   }
