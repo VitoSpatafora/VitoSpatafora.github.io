@@ -13,13 +13,16 @@ body {
   
   .projects-container {
     display: flex;
-    justify-content: center; /* Centers the entire project container */
+    justify-content: center;
+    background: #ffffff;
+    border: 2px solid #ffffff;
   }
   
   .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centers the individual sections */
+    justify-content: center;
+    text-align: center;
   }
   
   .project {
@@ -29,7 +32,6 @@ body {
     padding: 20px;
     width: 50%; /* Keeps two sections per row */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     margin: 10px; /* Adds some space between the projects */
   }
   
@@ -38,15 +40,17 @@ body {
   }
   
   .project img {
-    width: 100%;
+    width: 75%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
   }
   
   .project p {
-    font-size: 16px;
-    color: #333;
+    font-size: 22px;
+    color: #070707;
+    text-align: center;
+    font-weight: bold;
   }
   
   .about,
@@ -64,13 +68,5 @@ body {
   h2 {
     color: #6f7bfc;
     margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    color: #333;
-    text-align: justify;
   }
   
