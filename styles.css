@@ -15,6 +15,13 @@ body {
     color: #ffffff;
     margin-bottom: 20px;
   }
+
+  p {
+    font-size: 30px;
+    color:  #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
   
   .spacer {
     height: 30px;
